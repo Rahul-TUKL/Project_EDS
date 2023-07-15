@@ -1,10 +1,15 @@
-ADS_COVID19
+Covid 19 Data Analysis
 ==============================
 
-Covid 19 Data Analysis
+
+This project aims to analyze COVID-19 data, providing insights and visualizations to better understand the impact of the pandemic. The project utilizes data science techniques and machine learning models, including SIR (Susceptible, Infected, Recovered) models, as well as libraries such as scikit-learn and TensorFlow, to extract valuable information from the available data.
+
 
 Project Organization
 ------------
+
+The project follows a structured organization that helps maintain a clean and organized codebase. The directory structure is as follows:
+
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -53,5 +58,35 @@ Project Organization
 
 
 --------
+
+Setup Instructions
+--------
+
+To set up the project and run the analysis, please follow these steps:
+
+1. Clone the repository to your local machine using `git clone git@github.com:Rahul-TUKL/Project_EDS.git`.
+2. Navigate to the project's root directory.
+3. Create a virtual environment (optional but recommended) using your preferred method (e.g., virtualenv, conda).
+4. Activate the virtual environment.
+5. Install the required dependencies, including scikit-learn and TensorFlow, by running `pip install -r requirements.txt`.
+
+The project is now set up and ready to use.
+
+Contributing
+----------
+Contributions to this project are welcome. To contribute, please follow these guidelines:
+
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix.
+3. Make your modifications and commit your changes.
+4. Push your branch to your forked repository.
+5. Submit a pull request to the main repository.
+6. When contributing, ensure that your code follows the project's coding style and conventions. Include clear and concise commit messages and provide a detailed description of the changes you've made.
+
+Please note that all contributions are subject to review and approval by the project maintainers.
+
+We appreciate your interest in contributing to this project and look forward to your valuable input!
+
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
